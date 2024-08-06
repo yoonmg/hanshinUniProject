@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cover Template · Bootstrap v5.0 with Slick Slider</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Slick 라이브러리 CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <!--<link rel="stylesheet" href="/css/styles.css">-->
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/integrated.css">
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0">Shopping mall project</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="products.html">Products</a>
+                <a class="nav-link" href="community.html">Community</a>
+                <a class="nav-link btn btn-primary text-white" href="login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="px-3">
+        <!-- Slick 슬라이더 추가 -->
+        <div class="slick-slider">
+            <div><img src="https://c4.wallpaperflare.com/wallpaper/316/651/796/smoke-working-out-wallpaper-preview.jpg" alt="Slide 1"></div>
+            <div><img src="/images/john-arano-h4i9G-de7Po-unsplash-1-scaled (1).jpg" alt="Slide 2"></div>
+            <div><img src="https://lirp.cdn-website.com/398ae8d6/dms3rep/multi/opt/develop-a-summer-fitness-plan-with-these-tips-1200px-1920w.jpg" alt="Slide 3"></div>
+            <div><img src="https://www.verywellfit.com/thmb/Xio5I7FgQh0GRwhS6qWAio3amOM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pushups-5680bb925f9b586a9edf3927.jpg" alt="Slide 4"></div>
+            <div><img src="https://blog.nasm.org/hubfs/fitness-trends.jpg" alt="Slide 5"></div>
+        </div>
+
+        <h1>Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+            <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+        </p>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+    </footer>
+</div>
+
+
+<!-- Slick 라이브러리 JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- 슬라이드 초기화 JavaScript -->
+<script>
+    $(document).ready(function(){
+      $('.slick-slider').slick({
+        slidesToShow: 1, // 한 번에 보여질 슬라이드 수
+        slidesToScroll: 1, // 스크롤 시 이동할 슬라이드 수
+        autoplay: true, // 자동 재생 설정
+        autoplaySpeed: 2000, // 자동 재생 속도 (ms)
+        dots: true, // 동그라미 표시 제거
+        infinite: true, // 무한 루프 설정
+        pauseOnHover: false
+      });
+    });
+</script>
+</body>
+</html>
+
+
+
+
