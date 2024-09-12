@@ -1,0 +1,66 @@
+.bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.slick-slide img {
+  width: 100%; /* 이미지 가로 전체 너비로 설정 */
+  height: 1080px; /* 슬라이드 높이 설정 */
+  object-fit: cover;
+  margin: 0 auto; /* 이미지를 가운데 정렬 */
+}
+
+.slick-prev, .slick-next {
+  display: none !important; /* 이전/다음 화살표 숨김 */
+}
+
+.slick-dots li button:before {
+    font-size: 10px; /* 동그라미 크기 조정 */
+    color: #fff; /* 동그라미 색상 */
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.navbar {
+    margin-bottom: 20px; /* navbar 하단 여백 설정 */
+}
+
+.slick-slider {
+    margin-top: 20px; /* 슬라이드 상단 여백 설정 */
+}
